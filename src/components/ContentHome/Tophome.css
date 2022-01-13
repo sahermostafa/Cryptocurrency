@@ -1,0 +1,12 @@
+.Tophome{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 500px) {
+    .Tophome {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+  } 
